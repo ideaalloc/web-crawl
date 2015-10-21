@@ -8,8 +8,17 @@
 from scrapy.item import Item, Field
 
 
-class WebcrawlItem(Item):
-    # define the fields for your item here like:
-    # name = scrapy.Field()
-    description = Field()
+class Products(Item):
+    name = Field()
+    price = Field()
+    url = Field()
+
+
+class Details(Item):
+    spec_names = Field()
+    spec_values = Field()
+    brand = Field()
+    desc = Field()
+    pic = Field()
+    comments = Field()
     url = Field()

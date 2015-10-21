@@ -2,7 +2,7 @@
 
 ### Priority
 
-~ Python 2.7
+Python 2.7.*
 
 ### Configure it
 
@@ -14,5 +14,6 @@ $ pip install scrapy
 
 ```
 $ cd web-crawl
-$ scrapy crawl amazon -o items.json
+$ scrapy crawl products -o products.json
+$ scrapy crawl details -o details.json
 ```
