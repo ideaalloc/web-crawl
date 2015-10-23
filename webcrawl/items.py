@@ -22,3 +22,19 @@ class Details(Item):
     pic = Field()
     comments = Field()
     url = Field()
+
+
+class Brands(Item):
+    name = Field()
+    url = Field()
+
+
+class Categories(Item):
+    name = Field()
+    url = Field()
+
+
+class Supplements(Item):
+    name = Field()
+    url = Field()
+
